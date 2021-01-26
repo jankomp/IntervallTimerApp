@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/black_overlay">
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_toStartOf="@+id/editButton"
+        android:layout_toLeftOf="@+id/editButton"
+        android:background="@android:color/holo_red_dark"
+        android:text="X" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="63dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toStartOf="@+id/startButton"
+        android:layout_toLeftOf="@+id/startButton"
+        android:background="@android:color/black"
+        android:text="EDIT"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="70dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:background="@android:color/black"
+        android:text="start"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="196dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="7dp"
+        android:text="workoutName"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/numberOfExercisesView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginRight="179dp"
+        android:layout_marginBottom="1dp"
+        android:text="0"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/timeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="1dp"
+        android:text="00:00:00"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/timeView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="55dp"
+        android:text="time:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/noOfExTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/timeTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="55dp"
+        android:text="n° of ex.:"
+        android:textColor="@android:color/black" />
+</RelativeLayout>
